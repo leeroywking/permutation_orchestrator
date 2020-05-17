@@ -1,0 +1,22 @@
+{
+  "name": "permutation_orchestrator",
+  "version": "1.0.0",
+  "description": "an orchestrator for the permutation builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --max-old-space-size=102400 index.js"
+  },
+  "keywords": [
+    "permutation",
+    "orchestrator"
+  ],
+  "author": "Lee-Roy King",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "superagent": "^5.2.2"
+  }
+}
